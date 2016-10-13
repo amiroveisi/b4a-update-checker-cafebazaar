@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <doclet-version-NOT-library-version>1.05</doclet-version-NOT-library-version>
+    <class>
+        <name>ir.dotnetgeek.updatecheckerlib.UpdateCheckerServiceManager</name>
+        <shortname>UpdateCheckerServiceManager</shortname>
+        <owner>process</owner>
+        <event>updatecheckfinished(version as long)</event>
+        <method>
+            <name>initService</name>
+            <comment></comment>
+            <returntype>void</returntype>
+            <parameter>
+                <name>ba</name>
+                <type>anywheresoftware.b4a.BA</type>
+            </parameter>
+        </method>
+        <method>
+            <name>releaseService</name>
+            <comment></comment>
+            <returntype>void</returntype>
+        </method>
+        <method>
+            <name>Initialize</name>
+            <comment></comment>
+            <returntype>void</returntype>
+            <parameter>
+                <name>eventName</name>
+                <type>java.lang.String</type>
+            </parameter>
+        </method>
+        <property>
+            <name>PackageName</name>
+            <parameter>
+                <name>packageName</name>
+                <type>java.lang.String</type>
+            </parameter>
+            <comment></comment>
+        </property>
+    </class>
+</root>
