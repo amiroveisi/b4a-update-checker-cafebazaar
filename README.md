@@ -4,7 +4,7 @@ this library lets B4A developers to check app updates on Cafebazaar using Cafeba
 ## how to use
 1. download library .jar file from respository.  
 2. copy downloaded file into your B4A Libraries folder (or Shared Libraries folder).  
-3. select "ir.dotnetgeek.updatecheker" lib in B4A Library Manager.  
+3. select "ir.dotnetgeek.updatechecker" lib in B4A Library Manager.  
 4. create a variable of type UpdateCheckerServiceManager like this:  
   `Dim updateChecker as UpdateCheckerServiceManager`   
   you can do this in `sub Globals` or any other sub you like.  
